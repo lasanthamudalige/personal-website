@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    margin: 0;
+    margin: 0 0 50px;
     font-family: 'Open Sans', sans-serif;
     color: #40514E;
     font-size: 2.5rem;
@@ -42,7 +42,7 @@ hr {
 }
 
 .profile-img {
-    padding-top: 50px;
+    margin-top: 50px;
     width: 250px;
     height: 250px;
     padding-bottom: 50px;
@@ -50,7 +50,7 @@ hr {
 
 .skill-row {
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 100px auto;
     text-align: left;
     line-height: 2;
     padding-bottom: 25px;
@@ -78,12 +78,16 @@ hr {
 }
 
 .contact-me {
-    padding-top: 50px;
+    padding: 50px 0 50px;
 }
 
 .bottom-container {
     background-color: #E4F9F5;
     padding: 40px 0 5px;
+}
+
+.contact-message {
+    margin: 50px 0 50px;
 }
 
 .footer-link {
