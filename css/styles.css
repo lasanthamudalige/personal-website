@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    margin: 0;
+    background-color: #E4F9F5;
+    height: 700px;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/mountaineer-5616419.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px 110px;
+}
+
+
+h1 {
+    margin: 0 auto 40px auto;
+    color: #40514E;
+    font-family: 'Caveat', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #40514E;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 5%;
+    border-spacing: 20px;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+
+}
+
+
+.bottom-container {
+    background-color: #E4F9F5;
+    margin: auto;
+    height: 100px;
+}
