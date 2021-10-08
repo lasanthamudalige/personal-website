@@ -11,9 +11,9 @@ body {
     padding-top: 1px;
     font-family: 'Open Sans', sans-serif;
     background-image: url(../images/mountaineer-5616419.png);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
-    background-position: 0px 124px;
+    background-position: 0px 118px;
 }
 
 h1 {
@@ -74,6 +74,7 @@ hr {
 
 .skills {
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .contact-me {
