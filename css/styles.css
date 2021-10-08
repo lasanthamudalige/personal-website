@@ -7,17 +7,17 @@ body {
 .top-container {
     margin: 0;
     background-color: #E4F9F5;
-    height: 900px;
-    padding-top: 50px;
+    height: 800px;
+    padding-top: 1px;
     font-family: 'Open Sans', sans-serif;
     background-image: url(../images/mountaineer-5616419.png);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
-    background-position: 0px 145px;
+    background-position: 0px 124px;
 }
 
 h1 {
-    margin: 0 auto 40px auto;
+    margin: 50 auto 40px auto;
     color: #40514E;
     font-family: 'Caveat', cursive;
     font-size: 5.625rem;
@@ -53,7 +53,6 @@ hr {
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
-    /* padding-top: 20px; */
     padding-bottom: 25px;
 }
 
@@ -70,10 +69,19 @@ hr {
 }
 
 .profile  {
-    padding-bottom: 25px;
+    padding-bottom: 50px;
+}
+
+.skills {
+    padding-top: 50px;
+}
+
+.contact-me {
+    padding-top: 50px;
 }
 
 .bottom-container {
     background-color: #E4F9F5;
     height: 80px;
 }
+
