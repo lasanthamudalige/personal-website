@@ -83,6 +83,13 @@ hr {
 
 .bottom-container {
     background-color: #E4F9F5;
-    height: 80px;
+    padding: 40px 0 5px;
 }
 
+.footer-link {
+    margin: 10px 20px;
+}
+
+.copyright {
+    padding: 10px;
+}
