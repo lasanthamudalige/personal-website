@@ -16,6 +16,10 @@ body {
     background-position: 0px 118px;
 }
 
+.expand-icon {
+    margin: 300px;
+}
+
 h1 {
     margin: 50 auto 40px auto;
     color: #40514E;
@@ -101,13 +105,20 @@ hr {
 
 .social-media-btn {
     border: 0ch;
-   background: none; 
+   background: none;
    margin: 0 2px;
+}
 
+.social-media-btn:active {
+  transform: translateY(3px);
 }
 
 .facebook-img {
     width: 75%;
+}
+
+.facebook-img:focus {
+    color: yellow;
 }
 
 .linkedin-img {
