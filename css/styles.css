@@ -107,8 +107,12 @@ hr {
 
 .social-media-btn {
     border: 0ch;
-    background: none;
     margin: 0 2px;
+    background-color: #E4F9F5;
+}
+
+.social-media-btn:hover {
+    background-color: white;
 }
 
 .social-media-btn:active {
