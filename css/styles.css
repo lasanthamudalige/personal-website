@@ -14,29 +14,31 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: 0px 118px;
+    margin: 0 auto 0 auto;
 }
 
 .expand-icon {
-    margin: 300px;
+    margin: 350px auto 0 auto;
 }
 
 h1 {
-    margin: 50 auto 40px auto;
     color: #40514E;
     font-family: 'Caveat', cursive;
     font-size: 5.625rem;
+    margin: 50 auto 40 auto;
 }
 
 h2 {
-    margin: 0 0 50px;
     font-family: 'Open Sans', sans-serif;
     color: #40514E;
     font-size: 2.5rem;
     font-weight: lighter;
+    margin: 0 auto 0 auto;
 }
 
 p {
     line-height: 2;
+    margin: 0 auto 0 auto;
 }
 
 hr {
@@ -75,7 +77,7 @@ hr {
     margin: 30px;
 }
 
-.profile  {
+.profile {
     padding-bottom: 25px;
 }
 
@@ -105,20 +107,20 @@ hr {
 
 .social-media-btn {
     border: 0ch;
-   background: none;
-   margin: 0 2px;
+    margin: 0 2px;
+    background-color: #E4F9F5;
+}
+
+.social-media-btn:hover {
+    background-color: white;
 }
 
 .social-media-btn:active {
-  transform: translateY(3px);
+    transform: translateY(3px);
 }
 
 .facebook-img {
     width: 75%;
-}
-
-.facebook-img:focus {
-    color: yellow;
 }
 
 .linkedin-img {
@@ -134,5 +136,5 @@ hr {
 }
 
 .copyright {
-    padding: 10px;
+    margin: 25px 0 0 25px; 
 }
